@@ -121,6 +121,24 @@ export default function Newsletter() {
             {loading ? "Enviando..." : "Inscrever-se"}
           </button>
         </form>
+
+        <div className={styles.links}>
+          <a
+            target="_blank"
+            href="https://newsletter.andersonmfjr.com/archive"
+            rel="noreferrer"
+          >
+            Arquivo
+          </a>
+          <span>|</span>
+          <a
+            target="_blank"
+            href="https://newsletter.andersonmfjr.com/rss"
+            rel="noreferrer"
+          >
+            RSS
+          </a>
+        </div>
       </main>
     </div>
   );

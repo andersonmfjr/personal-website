@@ -58,6 +58,8 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .card:hover,
@@ -80,6 +82,11 @@
 
 .card h2 {
   margin-bottom: 0;
+}
+
+.svg {
+  width: 30px;
+  margin-left: 10px;
 }
 
 @media (max-width: 600px) {

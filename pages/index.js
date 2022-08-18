@@ -3,6 +3,25 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
+const SVG = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className={styles.svg}
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
+      ></path>
+    </svg>
+  );
+};
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -34,7 +53,8 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>LinkedIn &rarr;</h2>
+            <h2>LinkedIn </h2>
+            {SVG()}
           </a>
 
           <a
@@ -43,12 +63,14 @@ export default function Home() {
             className={styles.card}
             rel="noreferrer"
           >
-            <h2>Github &rarr;</h2>
+            <h2>Github</h2>
+            {SVG()}
           </a>
 
           <Link href="/newsletter">
             <a className={styles.card}>
-              <h2>Newsletter &rarr;</h2>
+              <h2>Newsletter</h2>
+              {SVG()}
             </a>
           </Link>
         </div>

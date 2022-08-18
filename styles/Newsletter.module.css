@@ -110,6 +110,19 @@
   font-size: inherit;
 }
 
+.links {
+  color: #0070c9;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.links span {
+  margin: 0 15px;
+  color: #fff;
+}
+
 .email-button[disabled] {
   opacity: 0.5;
   cursor: not-allowed;
