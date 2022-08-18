@@ -59,7 +59,7 @@ export default function Newsletter() {
         </Link>
 
         <p className={styles.description}>
-          Olá! Meu nome é Anderson Feitosa ✋
+          Olá! Meu nome é Anderson Feitosa 👋
         </p>
 
         <p className={styles.description}>
