@@ -65,13 +65,12 @@ export default function Newsletter() {
         <p className={styles.description}>
           Eu trabalho com tecnologia e desenvolvimento de software e consumo
           conteúdos relacionados todos os dias. Minha newsletter possui o
-          conteúdo curado que consumi recentemente.
+          conteúdo (técnico ou não 😅) que consumi recentemente.
         </p>
 
         <p className={styles.description} style={{ marginBottom: 0 }}>
           Os conteúdos podem ser de vários temas: front-end, carreira, UX,
-          vídeos, back-end, etc… e também pode ter conteúdo não técnico as vezes
-          😅.
+          vídeos, back-end, etc…
         </p>
 
         <hr className={styles.hr}></hr>
