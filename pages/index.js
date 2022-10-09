@@ -67,12 +67,12 @@ export default function Home() {
             {SVG()}
           </a>
 
-          <Link href="/newsletter">
+          {/* <Link href="/newsletter">
             <a className={styles.card}>
               <h2>Newsletter</h2>
               {SVG()}
             </a>
-          </Link>
+          </Link> */}
         </div>
       </main>
     </div>
